@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../assets/fonts/static/Inter-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: 'Harry';
+    src: url('../assets/fonts/HARRYP__.TTF');
+  }
+  
+  body {
+    font-family: "inter";
+    color: #ffff;
+    background-color: rgb(21, 21, 21);
+  }
+
+  .welcome{
+    font-family: 'Harry';
+  }
+
+  .ok{
+    font-family: 'Harry';
+  }
+
+  button{
+    font-family: "inter";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  
