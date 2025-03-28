@@ -135,24 +135,24 @@ img {
 @media (max-width: 425px) {
   .convite {
     position: absolute;
-    max-width: 300px;
-    max-height: 350px;
+    max-width: 400px;
+    max-height: 450px;
     display: none;
     padding: 10px 20px;
     border-radius: 8px;
-    left: 55px;
+    left: 15px;
   }
 
   .convite img {
     border-radius: 4px;
-    max-width: 240px;
+    max-width: 340px;
     max-height: 332px;
     position: relative;
   }
 
   .convite p {
-    max-width: 180px;
-    max-height: 100px;
+    max-width: 280px;
+    max-height: 200px;
     background-color: #bcc4d5;
     position: absolute;
     box-shadow: 0px -10px 5px #949eb1;
@@ -164,26 +164,33 @@ img {
 
   .convite .letter {
     font-family: "Harry";
-    font-size: 10px;
+    font-size: 16px;
     position: absolute;
     z-index: 1;
     padding: 10px;
     border-radius: 8px;
     justify-content: center;
     top: 20px;
-    left: 40px;
+    left: 35px;
+  }
+  .convite .welcome{
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 180px;
+    font-size: 13px;
   }
 
   .convite .ok {
     position: absolute;
     z-index: 1;
-    font-size: 10px;
+    font-size: 16px;
     padding: 10px;
     background-color: #999999;
     border-radius: 8px;
     justify-content: center;
-    top: 170px;
-    left: 100px;
+    top: 225px;
+    left: 140px;
   }
 };
 
